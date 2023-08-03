@@ -28,6 +28,7 @@ const Tempapp = () => {
               setSearch(event.target.value);
             }}
           />
+          
         </div>
         {!city ? (
           <p className="errorMsg">Data not found</p>
